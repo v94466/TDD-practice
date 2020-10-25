@@ -6,4 +6,5 @@ describe('sum', function(){
         assert.equal(sum(2,2),4);
     });
 });
+
     
