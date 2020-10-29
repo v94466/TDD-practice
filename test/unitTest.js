@@ -61,7 +61,7 @@ describe('max', function () {
 
 describe('max', function () {
     it('returns 5 when  check maximum welcome between  5 and 5', function () {
-        assert.equal(max(5, 5, 5)
+        assert.equal(max(5, 5), 5)
     })
 })
 
@@ -131,7 +131,7 @@ describe('mid', function () {
         let arr = [8, 7, 3];
         assert.equal(functions.mid.deepEqual(arr), 7);
     });
-
+});
 
     describe('mid', function () {
         it('should return ["paul", "sam"] when the provided array is ["johhny","paul", "sam","veer"]', function () {
