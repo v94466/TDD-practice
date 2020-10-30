@@ -113,14 +113,14 @@ describe('mid', function () {
  describe('mid', function () {
     it('should return ["paul", "sam"] when the provided array is ["johny", "paul", "sam", "veer"]', function () {
         let arr = ["johny", "paul", "sam", "veer"];
-        assert.equal(functions.mid(arr), ["paul", "sam"]);
+        assert.deepEqual(functions.mid(arr), ["paul", "sam"]);
     });
 });
     
 describe('total', function () {
     it('should return 0 when the provided array is empty', function () {
         let arr = [];
-        assert.isNull(functions.total(arr), 0);
+        assert.equal(functions.total(arr), 0);
     });
 });
 describe('total', function () {
