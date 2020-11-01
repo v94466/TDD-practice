@@ -5,7 +5,7 @@ A School project for practicing unit testing with [Mocha](https://mochajs.org/) 
 ## Team members
 
 -[Veerpal kaur](https://github.com/v94466)
--[Jasveer kaur]
+-[Jasveer kaur](https://github.com/v94466)
 
 ## Setup
 
@@ -17,6 +17,6 @@ If the Command 'npm test' does not work, you may need to install mocha globally 
 
 ## What we learned from this project
 
-- I learned how to use chai's assertion syntax for unit tests.
+- We learned how to use chai's assertion syntax for unit tests.
 - How to create new wiki page and write unit test cases.
 - How to create node project.
